@@ -22,7 +22,7 @@ for elem in list_primes(n):
     s_num = s_num*elem
 
 i = 2
-while(i**2 < n):
+while(i**2 <= n):
     s_num = s_num*i
     i+=1
 
