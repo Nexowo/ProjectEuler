@@ -207,4 +207,4 @@ n = '''37107287533902102798797998220837590246510135740250
 tot = 0
 for number in n:
     tot+=int(number)
-print(tot)
+print(str(tot)[:10])
