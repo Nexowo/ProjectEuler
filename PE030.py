@@ -18,5 +18,4 @@ for i in range(1000000):
     m = sum(s)
     if m == i and i != 1:
         x.append(i)
-print(x)
 print(sum(x))
